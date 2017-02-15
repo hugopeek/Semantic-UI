@@ -1405,6 +1405,12 @@
 .ui.grid > [class*="equal width"].row > .wide.column {
   flex-grow: 0;
 }
+.ui[class*="equal width"].grid > .fitted.column,
+.ui[class*="equal width"].grid > .row > .fitted.column,
+.ui.grid > [class*="equal width"].row > .fitted.column {
+  flex-grow: 0;
+  width: auto;
+}
 
 
 /*----------------------
