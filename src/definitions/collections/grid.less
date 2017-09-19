@@ -1420,7 +1420,8 @@
     flex-direction: row-reverse;
   }
   .ui[class*="mobile vertically reversed"].grid,
-  .ui.stackable[class*="mobile reversed"] {
+  .ui.stackable[class*="mobile reversed"].grid,
+  .ui.stackable[class*="mobile reversed"].grid > .row {
     flex-direction: column-reverse;
   }
 
@@ -1456,7 +1457,9 @@
   .ui.grid > [class*="tablet reversed"].row {
     flex-direction: row-reverse;
   }
-  .ui[class*="tablet vertically reversed"].grid {
+  .ui[class*="tablet vertically reversed"].grid,
+  .ui.stackable[class*="tablet reversed"].grid,
+  .ui.stackable[class*="tablet reversed"].grid > .row {
     flex-direction: column-reverse;
   }
 
